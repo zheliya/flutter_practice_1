@@ -36,14 +36,6 @@ class BMICalculator extends StatelessWidget {
 
 
 
-//commment   safas dfas
- s
-
-
-
-
-
-
 
 
 
