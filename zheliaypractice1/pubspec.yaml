@@ -1,0 +1,138 @@
+name: zheliaypractice1
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  english_words: ^4.0.0
+  audioplayers: ^4.1.0
+  font_awesome_flutter: ^10.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+    - images\diamond.png
+    - images\dice1.png
+    - images\dice2.png
+    - images\dice3.png
+    - images\dice4.png
+    - images\dice5.png
+    - images\dice6.png
+    
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+    - family: SpaceMono
+      fonts:
+        - asset: fonts/SpaceMono-Bold.ttf
+          weight: 700
+        - asset: fonts/SpaceMono-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: fonts/SpaceMono-Italic.ttf
+          style: italic
+        - asset: fonts/SpaceMono-Regular.ttf
+
+    - family: Trispace
+      fonts:
+        - asset: fonts/Trispace_Condensed-Bold.ttf
+          weight: 700
+        - asset: fonts/Trispace_Condensed-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Trispace_Condensed-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Trispace_Condensed-Light.ttf
+          weight: 300
+        - asset: fonts/Trispace_Condensed-Medium.ttf
+          weight: 500
+        - asset: fonts/Trispace_Condensed-Regular.ttf
+        - asset: fonts/Trispace_Condensed-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Trispace_Condensed-Thin.ttf
+          weight: 100
+
+        - asset: fonts/Trispace_Expanded-Bold.ttf
+          weight: 700
+        - asset: fonts/Trispace_Expanded-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Trispace_Expanded-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Trispace_Expanded-Light.ttf
+          weight: 300
+        - asset: fonts/Trispace_Expanded-Medium.ttf
+          weight: 500
+        - asset: fonts/Trispace_Expanded-Regular.ttf
+        - asset: fonts/Trispace_Expanded-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Trispace_Expanded-Thin.ttf
+          weight: 100
+
+        - asset: fonts/Trispace_SemiCondensed-Bold.ttf
+          weight: 700
+        - asset: fonts/Trispace_SemiCondensed-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Trispace_SemiCondensed-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Trispace_SemiCondensed-Light.ttf
+          weight: 300
+        - asset: fonts/Trispace_SemiCondensed-Medium.ttf
+          weight: 500
+        - asset: fonts/Trispace_SemiCondensed-Regular.ttf
+        - asset: fonts/Trispace_SemiCondensed-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Trispace_SemiCondensed-Thin.ttf
+          weight: 100
+
+        - asset: fonts/Trispace_SemiExpanded-Bold.ttf
+          weight: 700
+        - asset: fonts/Trispace_SemiExpanded-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Trispace_SemiExpanded-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Trispace_SemiExpanded-Light.ttf
+          weight: 300
+        - asset: fonts/Trispace_SemiExpanded-Medium.ttf
+          weight: 500
+        - asset: fonts/Trispace_SemiExpanded-Regular.ttf
+        - asset: fonts/Trispace_SemiExpanded-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Trispace_SemiExpanded-Thin.ttf
+          weight: 100
+
+        - asset: fonts/Trispace-Bold.ttf
+          weight: 700
+        - asset: fonts/Trispace-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Trispace-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Trispace-Light.ttf
+          weight: 300
+        - asset: fonts/Trispace-Medium.ttf
+          weight: 500
+        - asset: fonts/Trispace-Regular.ttf
+        - asset: fonts/Trispace-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Trispace-Thin.ttf
+          weight: 100
+
+    - family: TrispaceVariableFont
+      fonts:
+        - asset: fonts/Trispace-VariableFont_wdth,wght.ttf
